@@ -16,7 +16,9 @@ function keyup(e, t) {
     // do something
     return
   }
-  call(t)
+  if (t.length >= 2) {
+      call(t)
+  }
 }
 function call(command) {
     command = command.toLowerCase()
