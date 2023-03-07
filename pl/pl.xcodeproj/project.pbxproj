@@ -14,6 +14,9 @@
 		686E602A29B7141000A4361B /* plTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E602929B7141000A4361B /* plTests.swift */; };
 		686E603429B7141000A4361B /* plUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E603329B7141000A4361B /* plUITests.swift */; };
 		686E603629B7141000A4361B /* plUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E603529B7141000A4361B /* plUITestsLaunchTests.swift */; };
+		686E604329B714EC00A4361B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 686E604229B714EC00A4361B /* index.html */; };
+		686E604429B714EC00A4361B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 686E604229B714EC00A4361B /* index.html */; };
+		686E604529B714EC00A4361B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 686E604229B714EC00A4361B /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		686E602F29B7141000A4361B /* plUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		686E603329B7141000A4361B /* plUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plUITests.swift; sourceTree = "<group>"; };
 		686E603529B7141000A4361B /* plUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		686E604229B714EC00A4361B /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				686E601B29B7141000A4361B /* Assets.xcassets */,
 				686E601D29B7141000A4361B /* Main.storyboard */,
 				686E602029B7141000A4361B /* pl.entitlements */,
+				686E604229B714EC00A4361B /* index.html */,
 			);
 			path = pl;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686E604329B714EC00A4361B /* index.html in Resources */,
 				686E601C29B7141000A4361B /* Assets.xcassets in Resources */,
 				686E601F29B7141000A4361B /* Main.storyboard in Resources */,
 			);
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686E604429B714EC00A4361B /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686E604529B714EC00A4361B /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
