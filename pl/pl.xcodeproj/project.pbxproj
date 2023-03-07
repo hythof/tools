@@ -17,6 +17,9 @@
 		686E604329B714EC00A4361B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 686E604229B714EC00A4361B /* index.html */; };
 		686E604429B714EC00A4361B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 686E604229B714EC00A4361B /* index.html */; };
 		686E604529B714EC00A4361B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 686E604229B714EC00A4361B /* index.html */; };
+		686E604729B71C6400A4361B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E604629B71C6400A4361B /* WindowController.swift */; };
+		686E604829B71C6400A4361B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E604629B71C6400A4361B /* WindowController.swift */; };
+		686E604929B71C6400A4361B /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686E604629B71C6400A4361B /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		686E603329B7141000A4361B /* plUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plUITests.swift; sourceTree = "<group>"; };
 		686E603529B7141000A4361B /* plUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		686E604229B714EC00A4361B /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		686E604629B71C6400A4361B /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				686E601729B7140F00A4361B /* AppDelegate.swift */,
 				686E601929B7140F00A4361B /* ViewController.swift */,
+				686E604629B71C6400A4361B /* WindowController.swift */,
 				686E601B29B7141000A4361B /* Assets.xcassets */,
 				686E601D29B7141000A4361B /* Main.storyboard */,
 				686E602029B7141000A4361B /* pl.entitlements */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				686E601A29B7140F00A4361B /* ViewController.swift in Sources */,
+				686E604729B71C6400A4361B /* WindowController.swift in Sources */,
 				686E601829B7140F00A4361B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				686E602A29B7141000A4361B /* plTests.swift in Sources */,
+				686E604829B71C6400A4361B /* WindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				686E603629B7141000A4361B /* plUITestsLaunchTests.swift in Sources */,
+				686E604929B71C6400A4361B /* WindowController.swift in Sources */,
 				686E603429B7141000A4361B /* plUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
