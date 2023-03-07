@@ -1,1 +1,36 @@
-hello webview
+<!doctype>
+<html>
+<head>
+<title>Programmable Launcher for Mac</title>
+<style>
+html, body {
+  background: #333;
+}
+input {
+  width: 100%;
+}
+</style>
+<script>
+function keyup(e, t) {
+  if (e.code === 'Enter') {
+    // do something
+    return
+  }
+  call(t)
+}
+function call(command) {
+    command = command.toLowerCase()
+    if (window.webkit) {
+        webkit.messageHandlers.pl.postMessage(command);
+    } else {
+        console.log(command)
+    }
+}
+</script>
+</head>
+<body>
+<form onsubmit="return false">
+<input type=text autofocus autocomplete=off onkeyup="keyup(arguments[0], this.value)">
+</form>
+</body>
+</html>

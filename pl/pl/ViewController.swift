@@ -9,6 +9,7 @@ class ViewController: NSViewController {
         let file = Bundle.main.url(forResource: "index", withExtension: "html")!
         let dir = file.deletingLastPathComponent()
         webView.loadFileURL(file, allowingReadAccessTo: dir)
+        webView.configuration.userContentController.add(self, name: "pl")
     }
 }
 
@@ -24,3 +25,15 @@ extension ViewController: WKNavigationDelegate {
     }
 }
 
+extension ViewController: WKScriptMessageHandler {
+    // JavaScriptからNativeの呼び出し
+    func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+        if let command = message.body as? String {
+            if (command == "chrome") {
+                
+            }
+            print("\(command) is not found")
+        }
+        print("\(message.body) is not a string")
+    }
+}
